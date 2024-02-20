@@ -39,7 +39,7 @@
 
 .down {
     border-radius: 0px 0px 10px 10px;
-    padding: 30px;
+    padding: 50px 100px 10px;
 }
 
 /* Input Section */
@@ -79,10 +79,9 @@
 }
 
 .white-bars {
-    width: 100%;
     background-color: white;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     vertical-align: middle;
 }
@@ -92,9 +91,10 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    border: 1px solid;
+    border: 2px solid;
     text-align: center;
     vertical-align: middle;
+    margin: 2px;
 }
 
 .done {
@@ -105,5 +105,17 @@
 .pending {
     color: rgba(255,56,56,255);
     border-color: rgba(255,56,56,255);
+}
+
+.text-done {
+    display: inline-block;
+    text-decoration: line-through;
+    color: grey;
+
+}
+
+.text-pending {
+    display: inline-block;
+
 }
 
