@@ -14,6 +14,7 @@
     text-align: center;
 }
 
+
 /* HEADER */
 
 .logo-title {
@@ -26,7 +27,6 @@
 /* MAIN */
 
 .container {
-    text-align: center;
     width: 75%;
     margin: auto;
     margin-bottom: 2px;
@@ -40,10 +40,10 @@
     border-radius: 0px 0px 5px 5px;
 }
 
-
 /* Input Section */
 
 .input-section {
+    text-align: center;
     padding: 5px;
 }
 
@@ -64,4 +64,10 @@
     font-size: 15px;
     color: white;
     vertical-align: middle;
+}
+
+/* Input Section */
+
+.clean-lists {
+    list-style: none;
 }
