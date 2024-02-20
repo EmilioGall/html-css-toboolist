@@ -17,15 +17,15 @@
 
 .logo-title {
     padding: 5px;
+    margin-bottom: 30px;
 
 }
 
-
-
-
-
-
-
-
-
 /* MAIN */
+
+.container {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2px;
+}
